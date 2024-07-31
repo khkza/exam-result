@@ -1,0 +1,222 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use App\Models\Student; // Make sure to use the correct model
+
+class StudentSeeder extends Seeder
+{
+    // Example data for students
+    protected $students = [
+        [
+            'id' => 1,
+            'roll_no' => 'A001',
+            'student_name' => 'John Doe',
+            'father_name' => 'Richard Doe',
+            'major' => 'bio',
+            'region_id' => 1,
+            'township_id' => 1,
+            'date_of_birth' => '2000-01-01',
+        ],
+        [
+            'id' => 2,
+            'roll_no' => 'B002',
+            'student_name' => 'Jane Smith',
+            'father_name' => 'Robert Smith',
+            'major' => 'bio',
+            'region_id' => 2,
+            'township_id' => 2,
+            'date_of_birth' => '2000-02-02',
+        ],
+        [
+            'id' => 3,
+            'roll_no' => '003',
+            'student_name' => 'Emily Johnson',
+            'father_name' => 'Michael Johnson',
+            'major' => 'eco',
+            'region_id' => 3,
+            'township_id' => 3,
+            'date_of_birth' => '2000-03-03',
+        ],
+        [
+            'id' => 4,
+            'roll_no' => '004',
+            'student_name' => 'James Brown',
+            'father_name' => 'David Brown',
+            'major' => 'bio',
+            'region_id' => 4,
+            'township_id' => 4,
+            'date_of_birth' => '2000-04-04',
+        ],
+        [
+            'id' => 5,
+            'roll_no' => '005',
+            'student_name' => 'Olivia Davis',
+            'major' => 'bio',
+            'father_name' => 'James Davis',
+            'region_id' => 5,
+            'township_id' => 5,
+            'date_of_birth' => '2000-05-05',
+        ],
+        [
+            'id' => 6,
+            'roll_no' => '006',
+            'student_name' => 'William Miller',
+            'major' => 'bio',
+            'father_name' => 'Charles Miller',
+            'region_id' => 6,
+            'township_id' => 6,
+            'date_of_birth' => '2000-06-06',
+        ],
+        [
+            'id' => 7,
+            'roll_no' => '007',
+            'student_name' => 'Sophia Wilson',
+            'father_name' => 'Thomas Wilson',
+            'major' => 'bio',
+            'region_id' => 7,
+            'township_id' => 7,
+            'date_of_birth' => '2000-07-07',
+        ],
+        [
+            'id' => 8,
+            'roll_no' => '008',
+            'student_name' => 'Daniel Moore',
+            'father_name' => 'Robert Moore',
+            'region_id' => 8,
+            'township_id' => 8,
+            'date_of_birth' => '2000-08-08',
+        ],
+        [
+            'id' => 9,
+            'roll_no' => '009',
+            'student_name' => 'Isabella Taylor',
+            'father_name' => 'Daniel Taylor',
+            'major' => 'bio',
+            'region_id' => 9,
+            'township_id' => 9,
+            'date_of_birth' => '2000-09-09',
+        ],
+        [
+            'id' => 10,
+            'roll_no' => '010',
+            'student_name' => 'Ethan Anderson',
+            'father_name' => 'Steven Anderson',
+            'major' => 'eco',
+            'region_id' => 10,
+            'township_id' => 10,
+            'date_of_birth' => '2000-10-10',
+        ],
+        [
+            'id' => 11,
+            'roll_no' => '011',
+            'student_name' => 'Mia Thomas',
+            'father_name' => 'John Thomas',
+            'major' => 'bio',
+            'region_id' => 11,
+            'township_id' => 11,
+            'date_of_birth' => '2000-11-11',
+        ],
+        [
+            'id' => 12,
+            'roll_no' => '012',
+            'student_name' => 'Alexander Jackson',
+            'father_name' => 'Andrew Jackson',
+            'major' => 'bio',
+            'region_id' => 12,
+            'township_id' => 12,
+            'date_of_birth' => '2000-12-12',
+        ],
+        [
+            'id' => 13,
+            'roll_no' => '013',
+            'student_name' => 'Avery White',
+            'father_name' => 'Christopher White',
+            'major' => 'eco',
+            'region_id' => 13,
+            'township_id' => 13,
+            'date_of_birth' => '2001-01-13',
+        ],
+        [
+            'id' => 14,
+            'roll_no' => '014',
+            'student_name' => 'Jack Harris',
+            'father_name' => 'Frank Harris',
+            'major' => 'bio',
+            'region_id' => 14,
+            'township_id' => 14,
+            'date_of_birth' => '2001-02-14',
+        ],
+        [
+            'id' => 15,
+            'roll_no' => '015',
+            'student_name' => 'Harper Martin',
+            'father_name' => 'Brian Martin',
+            'major' => 'eco',
+            'region_id' => 15,
+            'township_id' => 15,
+            'date_of_birth' => '2001-03-15',
+        ],
+        [
+            'id' => 16,
+            'roll_no' => '016',
+            'student_name' => 'Noah Thompson',
+            'father_name' => 'Paul Thompson',
+            'major' => 'bio',
+            'region_id' => 16,
+            'township_id' => 16,
+            'date_of_birth' => '2001-04-16',
+        ],
+        [
+            'id' => 17,
+            'roll_no' => '017',
+            'student_name' => 'Ella Robinson',
+            'father_name' => 'George Robinson',
+            'major' => 'bio',
+            'region_id' => 17,
+            'township_id' => 17,
+            'date_of_birth' => '2001-05-17',
+        ],
+        [
+            'id' => 18,
+            'roll_no' => '018',
+            'student_name' => 'Lucas Clark',
+            'father_name' => 'Kenneth Clark',
+            'major' => 'bio',
+            'region_id' => 18,
+            'township_id' => 18,
+            'date_of_birth' => '2001-06-18',
+        ],
+        [
+            'id' => 19,
+            'roll_no' => '019',
+            'student_name' => 'Mason Lewis',
+            'father_name' => 'Edward Lewis',
+            'major' => 'bio',
+            'region_id' => 19,
+            'township_id' => 19,
+            'date_of_birth' => '2001-07-19',
+        ],
+        [
+            'id' => 20,
+            'roll_no' => '020',
+            'student_name' => 'Lily Walker',
+            'father_name' => 'Henry Walker',
+            'major' => 'eco',
+            'region_id' => 20,
+            'township_id' => 20,
+            'date_of_birth' => '2001-08-20',
+        ],
+    ];
+
+    public function run(): void
+    {
+        foreach ($this->students as $student) {
+            Student::updateOrCreate(
+                ['id' => $student['id']], // Find or create by 'id'
+                $student // Data to be inserted or updated
+            );
+        }
+    }
+}
